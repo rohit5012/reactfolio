@@ -15,8 +15,8 @@ const Portfolio = () => {
       src: gymDiary,
       name: "Gymdiary",
       tech: "React",
-      demo: "https://github.com/rshaarma?page=1&tab=repositories",
-      code: "https://github.com/rshaarma/arts4all",
+      demo: "https://main--sweat-beasts.netlify.app/",
+      code: "https://github.com/rshaarma/gymDiary",
     },
     {
       id: 2,
