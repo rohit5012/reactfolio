@@ -7,7 +7,6 @@ import SoftSkills from "./components/SoftSkills";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
-// import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
         <Portfolio />
         <Experience />
         <Contact />
-        {/* <Footer /> */}
       </div>
     </>
   );
