@@ -1,37 +1,38 @@
 import React from "react";
 import PortfolioImage from "../images/portfolioImage.png";
-import RailsArt from "../images/RailsArt.png";
+// import RailsArt from "../images/RailsArt.png";
 import RailsFlats from "../images/RailsFlats.png";
 import RailsMovies from "../images/RailsMovies.png";
 import ReactCalender from "../images/ReactCalender.png";
 import ReactPizza from "../images/ReactPizza.png";
 import ReactWeather from "../images/ReactWeather.png";
+import gymDiary from "../images/gymDiary.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: RailsArt,
-      name: "Arts4all",
-      tech: "Ruby On Rails",
+      src: gymDiary,
+      name: "Gymdiary",
+      tech: "React",
       demo: "https://github.com/rshaarma?page=1&tab=repositories",
       code: "https://github.com/rshaarma/arts4all",
     },
     {
       id: 2,
-      src: RailsFlats,
-      name: "FlatSearch",
-      tech: "Ruby On Rails",
-      demo: "",
-      code: "https://github.com/rshaarma/react-flats",
-    },
-    {
-      id: 3,
       src: RailsMovies,
       name: "Muvy2watch",
       tech: "Ruby On Rails",
       demo: "",
       code: "https://github.com/rshaarma/rails-watchlist",
+    },
+    {
+      id: 3,
+      src: RailsFlats,
+      name: "FlatSearch",
+      tech: "Ruby On Rails",
+      demo: "",
+      code: "https://github.com/rshaarma/react-flats",
     },
     {
       id: 4,
