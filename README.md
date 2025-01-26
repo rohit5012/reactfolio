@@ -1,18 +1,18 @@
 <br />
 <p align="center">
   <a href="https://github.com/rshaarma/Bootstrap-Portfolio">
-  <img width="202" alt="Screenshot 2023-11-07 at 23 23 54" src="https://github.com/rshaarma/rsdev-portfolio/assets/64362564/876805c9-698b-47a2-99fb-9e3f87e5e47f">
+  <img width="228" alt="Image" src="https://github.com/user-attachments/assets/1ea5e4fb-c490-4ed1-b622-d05c057146e0" />
   </a>
 
   <h3 align="center">Welcome to Portfolio ReadMe</h3>
 
   <p align="center">
     <strong>Explore the docs »</strong>
-    <a href="https://rohittsharrma.netlify.app/">View Demo</a>
+    <!-- <a href="https://rohittsharrma.netlify.app/">View Demo</a> -->
     ·
-    <a href="https://github.com/rshaarma/reactfolio/issues">Report Bug</a>
+    <a href="https://github.com/rohit5012/reactfolio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/rshaarma/reactfolio/issues">Request Feature</a>
+    <a href="https://github.com/rohit5012/reactfolio/issues">Request Feature</a>
   </p>
 </p>
 
@@ -34,12 +34,12 @@
 
 ## About The Project
 
-<img width="1439" alt="Screenshot 2023-11-07 at 22 55 28" src="https://github.com/rshaarma/portfolio/assets/64362564/a3480397-46fd-48ac-b0bb-9e124afc386a">
+<img width="1422" alt="Image" src="https://github.com/user-attachments/assets/9840e5df-ebb4-4b77-9346-a78e9247f504" />
 
 This repository contains a web application about myself, skills set, recent projects and contact information.
 
 The live website has been deployed to
-Github Pages. This project was developed by [Rohit](https://github.com/rshaarma) .
+Github Pages. This project was developed by [Rohit](https://github.com/rohit5012) .
 
 ## Getting Started
 
@@ -78,7 +78,7 @@ Javascript
 #### Clone the repository
 
 ```shell
-git clone git@github.com:rshaarma/reactfolio.git
+git clone https://github.com/rohit5012/reactfolio.git
 cd project
 ```
 
@@ -86,7 +86,7 @@ cd project
 
 ## Roadmap
 
-See the [open issues](https://github.com/rshaarma/reactfolio/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/rohit5012/reactfolio/issues) for a list of proposed features (and known issues).
 
 ## Resources
 
@@ -110,4 +110,4 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Contact
 
-You can contact us by opening an issue in this [repo](https://github.com/rshaarma/reactfolio/issues). We will get back to you as soon as we can.
+You can contact us by opening an issue in this [repo](https://github.com/rohit5012/reactfolio/issues). We will get back to you as soon as we can.
