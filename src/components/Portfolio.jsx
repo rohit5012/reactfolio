@@ -1,7 +1,6 @@
 import PortfolioImage from "../images/portfolioImage.png";
-// import RailsArt from "../images/RailsArt.png";
 import RailsFlats from "../images/RailsFlats.png";
-import RailsMovies from "../images/RailsMovies.png";
+import gamesSwap from "../images/game-swap.png";
 import ReactCalender from "../images/ReactCalender.png";
 import ReactPizza from "../images/ReactPizza.png";
 import ReactWeather from "../images/ReactWeather.png";
@@ -15,15 +14,15 @@ const Portfolio = () => {
       name: "Gymdiary",
       tech: "React",
       demo: "https://main--sweat-beasts.netlify.app/",
-      code: "https://github.com/rshaarma/gymDiary",
+      code: "https://github.com/rohit5012/gymDiary",
     },
     {
       id: 2,
-      src: RailsMovies,
-      name: "Muvy2watch",
-      tech: "Ruby On Rails",
-      demo: "",
-      code: "https://github.com/rshaarma/rails-watchlist",
+      src: gamesSwap,
+      name: "Games-swap",
+      tech: "React",
+      demo: "https://rohittsharrma.netlify.app/",
+      code: "https://github.com/rohit5012/games-swap-app",
     },
     {
       id: 3,
@@ -68,63 +67,61 @@ const Portfolio = () => {
   };
 
   return (
-    <div>
-      <div
-        name="portfolio"
-        className="pb-16 pt-20 pl-9 pr-9 md:p-24 text-[#193641]"
-        style={{ backgroundImage: `url(${PortfolioImage})` }}
-      >
-        <div>
-          <h1 className="flex justify-center text-xl md:text-4xl font-medium mt-6 md:mt-4">
-            Portfolio
-          </h1>
-          <p className="py-3 text-lg md:text-xl lg:text-2xl flex justify-center">
-            Check out some of my work right here
-          </p>
-          <hr className="border-1 border-black my-4"></hr>
-        </div>
-        <div className="grid sm:grid-cols md:grid-cols-2 lg:grid-cols-3 gap-8 md:px-12 mt-12 rounded-lg">
-          {portfolios.map((portfolio, index) => {
-            return (
-              <div
-                key={portfolio.id}
-                className="bg-[#FFFFFF] shadow-lg hover:scale-105 duration-200 rounded-lg"
-              >
-                <div className="relative">
-                  <img
-                    src={portfolio.src}
-                    alt="example"
-                    className="w-full h-45 rounded-lg"
-                  />
-                  <div className="absolute inset-0 hover:bg-black hover:bg-opacity-50 flex items-center justify-center"></div>
+    <div
+      name="portfolio"
+      className="pb-16 pt-20 pl-9 pr-9 md:pl-7 md:pr-7 md:p-20 text-[#193641]"
+      style={{ backgroundImage: `url(${PortfolioImage})` }}
+    >
+      <div>
+        <h1 className="flex justify-center text-xl md:text-4xl font-medium mt-6 md:mt-4">
+          Portfolio
+        </h1>
+        <p className="py-3 text-lg md:text-xl lg:text-2xl flex justify-center">
+          Check out some of my work right here
+        </p>
+        <hr className="border-1 border-black my-4"></hr>
+      </div>
+      <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 md:px-12 mt-12 rounded-lg">
+        {portfolios.map((portfolio, index) => {
+          return (
+            <div
+              key={portfolio.id}
+              className="bg-[#FFFFFF] shadow-lg hover:scale-105 duration-200 rounded-lg"
+            >
+              <div className="relative h-50">
+                <img
+                  src={portfolio.src}
+                  alt="example"
+                  className="w-full rounded-lg h-40"
+                />
+                <div className="absolute inset-0 hover:bg-black hover:bg-opacity-50 flex items-center justify-center"></div>
+              </div>
+              <div className="flex flex-col justify-center items-center h-30">
+                <div className="flex flex-col justify-center items-center pt-1">
+                  <h2 className="text-[#193641] text-lg italic">
+                    {portfolio.name}
+                  </h2>
+                  <p className="text-sm">{portfolio.tech}</p>
                 </div>
-                <div className="flex flex-col justify-center items-center">
-                  <div className="flex flex-col justify-center items-center pt-1">
-                    <h2 className="text-[#193641] text-lg italic">
-                      {portfolio.name}
-                    </h2>
-                    <p className="text-sm">{portfolio.tech}</p>
-                  </div>
-                  <div className="w-full flex justify-around py-3">
-                    <button
-                      onClick={() => handleDemoclick(index)}
-                      className="bg-slate-100 p-1 px-3 hover:bg-slate-200"
-                    >
-                      Demo
-                    </button>
+                <div className="w-full flex justify-around py-3">
+                  <button
+                    onClick={() => handleDemoclick(index)}
+                    className="bg-slate-100 p-1 px-3 hover:bg-slate-200"
+                  >
+                    Demo
+                  </button>
 
-                    <button
-                      onClick={() => handleCodeclick(index)}
-                      className="bg-slate-100 p-1 px-3 hover:bg-slate-200"
-                    >
-                      Code
-                    </button>
-                  </div>
+                  <button
+                    onClick={() => handleCodeclick(index)}
+                    className="bg-slate-100 p-1 px-3 hover:bg-slate-200"
+                  >
+                    Code
+                  </button>
                 </div>
               </div>
-            );
-          })}
-        </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
