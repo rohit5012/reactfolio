@@ -86,24 +86,24 @@ const Portfolio = () => {
           return (
             <div
               key={portfolio.id}
-              className="bg-[#FFFFFF] shadow-lg hover:scale-105 duration-200 rounded-lg"
+              className="bg-[#FFFFFF] shadow-lg hover:scale-105 duration-200 rounded-lg h-96"
             >
-              <div className="relative h-50">
+              <div className="relative h-50 rounded-lg">
                 <img
                   src={portfolio.src}
                   alt="example"
-                  className="w-full rounded-lg h-40"
+                  className="w-full h-72 rounded-lg"
                 />
                 <div className="absolute inset-0 hover:bg-black hover:bg-opacity-50 flex items-center justify-center"></div>
               </div>
-              <div className="flex flex-col justify-center items-center h-30">
-                <div className="flex flex-col justify-center items-center pt-1">
+              <div className="flex flex-col justify-center items-center h-20">
+                <div className="flex flex-col justify-center items-center pt-2">
                   <h2 className="text-[#193641] text-lg italic">
                     {portfolio.name}
                   </h2>
                   <p className="text-sm">{portfolio.tech}</p>
                 </div>
-                <div className="w-full flex justify-around py-3">
+                <div className="w-full flex justify-around">
                   <button
                     onClick={() => handleDemoclick(index)}
                     className="bg-slate-100 p-1 px-3 hover:bg-slate-200"
