@@ -7,6 +7,7 @@ import SoftSkills from "./components/SoftSkills";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function App() {
   return (

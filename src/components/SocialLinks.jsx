@@ -1,8 +1,8 @@
-import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdMailOutline } from "react-icons/md";
 import { GrResume } from "react-icons/gr";
+import CV from "../images/cv.pdf";
 
 const SocialLinks = () => {
   const links = [
@@ -23,7 +23,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/rshaarma",
+      href: "https://github.com/rohit5012",
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ const SocialLinks = () => {
           Mail <MdMailOutline size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:rohittsharrma@outlook.com",
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ const SocialLinks = () => {
           <GrResume size={30} />
         </>
       ),
-      href: "/dev-cv.pdf",
+      href: CV,
       style: "rounded-br-md",
       download: true,
     },
