@@ -1,4 +1,3 @@
-import React from "react";
 import PortfolioImage from "../images/portfolioImage.png";
 // import RailsArt from "../images/RailsArt.png";
 import RailsFlats from "../images/RailsFlats.png";

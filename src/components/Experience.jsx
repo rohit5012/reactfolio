@@ -11,6 +11,8 @@ import rails from "../images/rails.png";
 import Node from "../images/node.png";
 import netlify from "../images/netlify.png";
 import jquery from "../images/jquery.jpeg";
+import firebase from "../images/firebase.png";
+import typescript from "../images/Typescript.png";
 
 const Experience = () => {
   const techs = [
@@ -84,6 +86,18 @@ const Experience = () => {
       id: 11,
       src: jquery,
       title: "JQUERY",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 12,
+      src: firebase,
+      title: "FIREBASE",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 13,
+      src: typescript,
+      title: "TYPESCRIPT",
       style: "shadow-blue-500",
     },
   ];
