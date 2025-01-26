@@ -38,8 +38,8 @@ function SoftSkills() {
   }, [percent]);
   return (
     <div>
-      <div className="p-24 text-[#193641] bg-[#E9ECEF]">
-        <h1 className="flex justify-center text-xl md:text-4xl font-medium ">
+      <div className="p-6 md:p-12 text-[#193641] bg-[#E9ECEF]">
+        <h1 className="flex justify-center text-xl md:text-4xl font-medium mt-6 md:mt-4">
           Soft Skills
         </h1>
         <hr className="border-1 mt-8"></hr>

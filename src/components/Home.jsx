@@ -9,7 +9,7 @@ function Home() {
         <a
           href={CV}
           download
-          className="cv absolute bottom-12 right-4 p-4 bg-white rounded-lg shadow-lg flex items-center"
+          className="cv absolute bottom-12 right-4 p-1 md:p-4 bg-white rounded-lg shadow-lg flex items-center"
         >
           Curriculum Vitae
           <i className="fas fa-cloud-download-alt ml-2"></i>

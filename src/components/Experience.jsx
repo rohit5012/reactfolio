@@ -104,7 +104,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full p-24"
+      className="bg-gradient-to-b from-gray-800 to-black w-full pb-16 pt-24 pl-9 pr-9 md:p-24"
     >
       <div className="text-white ">
         <h1 className="flex justify-center text-xl md:text-4xl font-medium ">
@@ -115,13 +115,13 @@ const Experience = () => {
         </p>
         <hr className="border-1 my-4"></hr>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-20 text-center">
+      <div className="grid grid-cols-3 md:grid-cols-3 gap-6 mt-2 text-center">
         {techs.map((tech) => (
           <div
             key={tech.id}
             className={`shadow-md hover:scale-105 duration-200 ${tech.style}`}
           >
-            <img src={tech.src} alt="" className="w-20 mx-auto my-4" />
+            <img src={tech.src} alt="" className="w-20 mx-auto my-9" />
             {/* <p className="text-white">{tech.title}</p> */}
           </div>
         ))}

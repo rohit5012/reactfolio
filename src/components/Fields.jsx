@@ -42,8 +42,8 @@ const skills = [
 const Fields = () => {
   return (
     <div>
-      <div className="p-24   text-[#193641]">
-        <h1 className="flex justify-center text-xl md:text-4xl font-medium ">
+      <div className="p-4 md:p-12 text-[#193641]">
+        <h1 className="flex justify-center text-xl md:text-4xl font-medium mt-6 md:mt-4">
           What I am passionate about
         </h1>
         <hr className="border-1  mt-8"></hr>

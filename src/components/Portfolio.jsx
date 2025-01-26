@@ -71,11 +71,11 @@ const Portfolio = () => {
     <div>
       <div
         name="portfolio"
-        className="p-24 text-[#193641]"
+        className="pb-16 pt-20 pl-9 pr-9 md:p-24 text-[#193641]"
         style={{ backgroundImage: `url(${PortfolioImage})` }}
       >
         <div>
-          <h1 className="flex justify-center text-xl md:text-4xl font-medium">
+          <h1 className="flex justify-center text-xl md:text-4xl font-medium mt-6 md:mt-4">
             Portfolio
           </h1>
           <p className="py-3 text-lg md:text-xl lg:text-2xl flex justify-center">
@@ -83,18 +83,18 @@ const Portfolio = () => {
           </p>
           <hr className="border-1 border-black my-4"></hr>
         </div>
-        <div className="grid sm:grid-cols md:grid-cols-2 lg:grid-cols-3 gap-8 px-12 mt-12">
+        <div className="grid sm:grid-cols md:grid-cols-2 lg:grid-cols-3 gap-8 md:px-12 mt-12 rounded-lg">
           {portfolios.map((portfolio, index) => {
             return (
               <div
                 key={portfolio.id}
-                className="bg-[#FFFFFF] shadow-lg hover:scale-105 duration-200"
+                className="bg-[#FFFFFF] shadow-lg hover:scale-105 duration-200 rounded-lg"
               >
                 <div className="relative">
                   <img
                     src={portfolio.src}
                     alt="example"
-                    className="w-full h-40"
+                    className="w-full h-45 rounded-lg"
                   />
                   <div className="absolute inset-0 hover:bg-black hover:bg-opacity-50 flex items-center justify-center"></div>
                 </div>
