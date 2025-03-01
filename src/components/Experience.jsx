@@ -1,4 +1,4 @@
-import React from "react";
+import nextjs from "../images/nextjs.png";
 import html from "../images/html.webp";
 import css from "../images/css.png";
 import javascript from "../images/JavaScript.png";
@@ -98,6 +98,12 @@ const Experience = () => {
       id: 13,
       src: typescript,
       title: "TYPESCRIPT",
+      style: "shadow-blue-500",
+    },
+    {
+      id: nextjs,
+      src: nextjs,
+      title: "NEXTJS",
       style: "shadow-blue-500",
     },
   ];

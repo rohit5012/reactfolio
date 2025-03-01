@@ -2,7 +2,7 @@ import PortfolioImage from "../images/portfolioImage.png";
 import RailsFlats from "../images/RailsFlats.png";
 import gamesSwap from "../images/game-swap.png";
 import ReactCalender from "../images/ReactCalender.png";
-import ReactPizza from "../images/ReactPizza.png";
+import travelApp from "../images/pic1.png";
 import ReactWeather from "../images/ReactWeather.png";
 import gymDiary from "../images/gymDiary.png";
 
@@ -10,49 +10,50 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: travelApp,
+      name: "WildWanderlust",
+      tech: "NextJs | Typescript | Tailwind",
+      demo: "https://wildwanderlust.netlify.app/",
+      code: "https://github.com/rohit5012/travel-nextjs-app",
+    },
+    {
+      id: 2,
       src: gymDiary,
       name: "Gymdiary",
-      tech: "React",
+      tech: "ReactJs | Bootstrap",
       demo: "https://main--sweat-beasts.netlify.app/",
       code: "https://github.com/rohit5012/gymDiary",
     },
     {
-      id: 2,
+      id: 3,
       src: gamesSwap,
       name: "Games-swap",
-      tech: "React",
-      demo: "https://rohittsharrma.netlify.app/",
+      tech: "ReactJs | Typescript | Tailwind | Firebase ",
+      demo: "https://game-swap-eurostars.vercel.app/",
       code: "https://github.com/rohit5012/games-swap-app",
     },
     {
-      id: 3,
+      id: 4,
       src: RailsFlats,
       name: "FlatSearch",
-      tech: "Ruby On Rails",
+      tech: "Ruby On Rails | Ruby | Bootstrap",
       demo: "",
       code: "https://github.com/rshaarma/react-flats",
     },
     {
-      id: 4,
+      id: 5,
       src: ReactCalender,
       name: "DailyCalender",
-      tech: "React",
+      tech: "Ruby On Rails | Ruby | Bootstrap",
       demo: "https://rshaarma.github.io/work-planner/",
       code: "https://github.com/rshaarma/work-planner",
     },
-    {
-      id: 5,
-      src: ReactPizza,
-      name: "PizzaDelivery",
-      tech: "React",
-      demo: "",
-      code: "https://github.com/rshaarma/react-pizza-cart",
-    },
+
     {
       id: 6,
       src: ReactWeather,
       name: "WeatherForecast",
-      tech: "React",
+      tech: "VanillaJs | CSS3",
       demo: "https://rshaarma.github.io/weather-display-app/",
       code: "https://github.com/rshaarma/weather-display-app",
     },
@@ -96,10 +97,10 @@ const Portfolio = () => {
                 />
                 <div className="absolute inset-0 hover:bg-black hover:bg-opacity-50 flex items-center justify-center"></div>
               </div>
-              <div className="flex flex-col justify-center items-center h-20">
-                <div className="flex flex-col justify-center items-center pt-2">
+              <div className="flex flex-col justify-center items-center pt-2">
+                <div className="flex flex-col justify-center items-center">
                   <h2 className="text-[#193641] text-lg italic">
-                    {portfolio.name}
+                    "{portfolio.name}"
                   </h2>
                   <p className="text-sm">{portfolio.tech}</p>
                 </div>
